@@ -1,7 +1,7 @@
 {
-  "name": "n8n-nodes-nasapics",
+  "name": "n8n-nodes-test",
   "version": "0.1.0",
-  "description": "n8n node to call NASA's APOD and Mars Rover Photo services.",
+  "description": "n8n node to call my server API.",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -9,7 +9,7 @@
   "homepage": "https://n8n.io",
   "author": {
     "name": "dimoninbirsk",
-    "email": "dimka.kolokolov@mail.ru"
+    "email": "test@test.ru"
   },
   "repository": {
     "type": "git",
@@ -30,10 +30,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/NasaPicsApi.credentials.js"
+      "dist/credentials/TestApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/NasaPics/NasaPics.node.js"
+      "dist/nodes/ApiTest/TestApi.node.js"
     ]
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "@typescript-eslint/parser": "^5.29.0",
     "eslint-plugin-n8n-nodes-base": "^1.5.4",
     "gulp": "^4.0.2",
-    "n8n-core": "^0.125.0",
+    "n8n-core": "^0.136.0",
     "n8n-workflow": "^0.107.0",
     "prettier": "^2.7.1",
     "tslint": "^6.1.2",
