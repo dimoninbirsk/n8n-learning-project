@@ -33,7 +33,7 @@
       "dist/credentials/TestApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ApiTest/TestApi.node.js"
+      "dist/nodes/TestApi/TestApi.node.js"
     ]
   },
   "devDependencies": {
